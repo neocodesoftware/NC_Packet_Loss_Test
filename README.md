@@ -35,6 +35,8 @@ Senior Architect, FileMaker, Inc.
 © 2016 FileMaker, Inc.
 
 ## Slide 35
+![image](https://user-images.githubusercontent.com/597763/193428893-2084c6fc-1f35-4670-aa3e-eee2b7290160.png)
+
 DO: Plan for the WAN
 Latency
 - Time delay in the network between request and response
