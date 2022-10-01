@@ -8,10 +8,10 @@ requires base elements
 https://community.claris.com/en/s/article/dep006---under-the-hood--server-performance---jon-thatcher
 
 # Mac
-ping -c 10 -s 1500 marion.neocodesoftware.com
+ping -c 10 -s 1500 filemakerhost.claris.com
 
 # Windows
-ping -n 10 -l 500 marion.neocodesoftware.com
+ping -n 10 -l 1500 filemakerhost.claris.com
  
 # Background
 Under the Hood:   Server Performance
@@ -29,6 +29,6 @@ Latency
 TCP/IP default packet size is 1500 bytes
 - 266000 bytes sent to client / 1500 bytes per packet = 177 round trips! - 177 round trips * 100ms latency = 17.7 seconds to send data!
  
- NOTE: This is a gross over-simplification and probably an over estimate!
+# NOTE: This is a gross over-simplification and probably an over estimate!
 TCP/IP will send multiple 1500 byte packets at once, without waiting for acknowledgement of each packet
 In most cases there are many fewer full round trips than this, but it’s still a decent rule of thumb for estimating transfer time
