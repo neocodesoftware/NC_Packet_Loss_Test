@@ -7,13 +7,13 @@ requires base elements
 
 https://community.claris.com/en/s/article/dep006---under-the-hood--server-performance---jon-thatcher
 
-#Mac
+# Mac
 ping -c 10 -s 1500 marion.neocodesoftware.com
 
-#Windows
+# Windows
 ping -n 10 -l 500 marion.neocodesoftware.com
  
-#Background
+# Background
 Under the Hood:   Server Performance
  
 COR001
@@ -21,7 +21,7 @@ Jon Thatcher
 Senior Architect, FileMaker, Inc.
 © 2016 FileMaker, Inc.
 
-#Slide 35
+# Slide 35
 DO: Plan for the WAN
 Latency
 - Time delay in the network between request and response
